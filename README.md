@@ -3,7 +3,7 @@
 A responsive front-end news portal application built with Next.js, mimicking the layout and functionality of [LiveHindustan](https://www.livehindustan.com/). This project focuses on performance, SEO, and modern React patterns.
 
 *
-
+Deployed on Vercel- https://hindustanlive-prkdpu1az-adityahahas-projects.vercel.app/
 ---
 
 ## 🚀 Features
