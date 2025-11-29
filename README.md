@@ -1,48 +1,42 @@
-# LiveHindustan Clone (Next.js)
+# Hindustan Live Clone (Next.js)
 
-A responsive front-end news portal application built with Next.js, mimicking the layout and functionality of [LiveHindustan](https://www.livehindustan.com/). This project focuses on performance, SEO, and modern React patterns.
+A modern, responsive news portal front-end built with Next.js, replicating the layout and functionality of LiveHindustan
+. The project focuses on performance, SEO optimization, and modern React development patterns.
 
-*
-Deployed on Vercel- https://hindustanlive-prkdpu1az-adityahahas-projects.vercel.app/
----
+Live Demo: Deployed on Vercel - https://hindustanlive-prkdpu1az-adityahahas-projects.vercel.app/
 
-## 🚀 Features
+# 🚀 Key Features
+Core Functionality
 
-### Core Functionality
-- **Dynamic Routing:** Individual pages for every news article (`/article/[id]`).
-- **Next.js Image Optimization:** efficient loading of images with layout shift protection.
-- **Responsive Design:** Fully fluid layout that adapts from Desktop (3-column grid) to Mobile (single column).
-- **SEO Ready:** Meta tags and dynamic titles for better search engine visibility.
+Dynamic Routing: Each article has its dedicated page (/article/[id]) for structured navigation.
 
-### Technical Implementation
-- **Data Fetching:** Uses **Incremental Static Regeneration (ISR)** via `getStaticProps`.
-  - *Why?* Allows the site to be ultra-fast (static HTML) but still update content in the background every 60 seconds without rebuilding the whole site.
-- **Styling:** Built with **Tailwind CSS** for rapid UI development and consistent design tokens.
-- **Mock API:** Simulates a real backend using a structured JSON data model.
+Next.js Image Optimization: Images load efficiently and prevent layout shifts using the Image component.
 
----
+Responsive Design: Fully adaptive grid layout (3-column desktop → single-column mobile).
 
-## 🛠️ Tech Stack
+SEO Optimized: Dynamic meta tags and page titles enhance search engine discoverability.
 
-- **Framework:** [Next.js](https://nextjs.org/) (React)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Deployment:** [Vercel](https://vercel.com/)
-- **Language:** JavaScript (ES6+)
+# Technical Implementation
 
----
+Incremental Static Regeneration (ISR): Pages are pre-rendered for speed but can update content every 60 seconds without rebuilding the entire site.
 
-## ⚙️ Getting Started
+Tailwind CSS: Provides fast, consistent styling and responsive utilities.
 
-Follow these steps to run the project locally on your machine.
+Mock API: A local JSON file simulates backend data for reliability and development speed.
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
+# 🛠️ Technology Stack
 
-### Installation
+Framework: Next.js
 
-1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/live-hindustan-clone.git](https://github.com/YOUR_USERNAME/live-hindustan-clone.git)
-   cd live-hindustan-clone
-   
+Styling: Tailwind CSS
+
+Deployment: Vercel
+
+Language: JavaScript (ES6+)
+
+# ⚙️ Getting Started
+Prerequisites
+
+Node.js (v14 or higher)
+
+npm or yarn package manager
